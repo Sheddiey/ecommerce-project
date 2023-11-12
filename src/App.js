@@ -6,12 +6,14 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Heroi from "./Components/Hero/Heroi";
 
 export default function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+        <Heroi/>
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route path="/phone" element={<ShopCategory category="phone" />} />
