@@ -18,7 +18,7 @@ const Heroi = () => {
           <p>collection</p>
           <p>for everyone</p>
         </div>
-        <div className="flex justify-center gap-[15px] items-center w-[310px] h-[70px] mt-[30px] rounded-[75px] bg-red-600 text-white text-2xl font-medium">
+        <div className="flex justify-center cursor-pointer gap-[15px] items-center w-[310px] h-[70px] mt-[30px] rounded-[75px] bg-red-600 text-white text-2xl font-medium">
           <div>Latest collection</div>
           <img src={arrowIcon} alt="arrow-icon" />
         </div>
