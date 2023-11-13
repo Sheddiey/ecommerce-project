@@ -6,31 +6,31 @@ import whatsapp_icon from "../Assets/whatsapp_icon.png";
 
 const Footer = () => {
   return (
-    <div className="">
-      <div>
+    <div className="flex flex-col justify-center items-center gap-[50px]">
+      <div className="flex items-center gap-[20px]">
         <img src={footer_logo} alt="" />
-        <p className="uppercase">Oningoi</p>
+        <p className="uppercase text-gray-800 text-[46px] font-bold">Oningoi</p>
       </div>
-      <ul>
-        <li>Company</li>
-        <li>Product</li>
-        <li>Offices</li>
-        <li>About</li>
-        <li>Contact</li>
+      <ul className="flex list-none gap-[50px] text-gray-800 text-[20px]">
+        <li className="cursor-pointer">Company</li>
+        <li className="cursor-pointer">Product</li>
+        <li className="cursor-pointer">Offices</li>
+        <li className="cursor-pointer">About</li>
+        <li className="cursor-pointer">Contact</li>
       </ul>
-      <div>
-        <div>
+      <div className="flex gap-[20px] ">
+        <div className="p-[10px] pb-[6px] bg-red-100 border-solid border-2 border-red-200">
           <img src={instagram_icon} alt="" />
         </div>
-        <div>
+        <div className="p-[10px] pb-[6px] bg-red-100 border-solid border-2 border-red-200">
           <img src={pinterest_icon} alt=" " />
         </div>
-        <div>
+        <div className="p-[10px] pb-[6px] bg-red-100 border-solid border-2 border-red-200">
           <img src={whatsapp_icon} alt=" " />
         </div>
       </div>
-      <div>
-        <hr />
+      <div className="flex flex-col items-center gap-[30px] w-[100%] mb-[30px] text-20px text-gray-700">
+        <hr className="w-[80%] border-none rounded-[10px] h-[3px] bg-red-100" />
         <p>Copyright @ 2023 - All Right Reserved </p>
       </div>
     </div>
