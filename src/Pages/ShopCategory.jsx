@@ -8,16 +8,16 @@ const ShopCategory = (props) => {
 
   return (
     <div className="">
-      <img src={props.banner} alt="" />
-      <div className="">
+      <img className="block my-[30px] mx-[auto] w-[90%] " src={props.banner} alt="" />
+      <div className="flex my-[0px] mx-[170px] justify-between items-center">
         <p>
-          <span>Showing 1-12</span> out of 36 products
+          <span className="font-semibold">Showing 1-12</span> out of 36 products
         </p>
-        <div>
+        <div className="py-[10px] px-[20px] rounded-[40px] border-solid border-2 border-zinc-200">
           Sort by <img src={dropdown_icon} alt="" />
         </div>
       </div>
-      <div className="">
+      <div className="my-[20px] mx-[80px] grid grid-cols-4 gap-[20px]">
         {all_products.map((item, i) => {
           if (props.category === item.category) {
             return (
