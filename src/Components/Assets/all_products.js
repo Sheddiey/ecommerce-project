@@ -39,6 +39,7 @@ let all_products = [
   {
     id: 1,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p1_img,
     new_price: 30.04,
     old_price: 133.48,
@@ -46,6 +47,7 @@ let all_products = [
   {
     id: 2,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p2_img,
     new_price: 56.24,
     old_price: 127.94,
@@ -53,6 +55,7 @@ let all_products = [
   {
     id: 3,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p3_img,
     new_price: 89.02,
     old_price: 110.43,
@@ -60,6 +63,7 @@ let all_products = [
   {
     id: 4,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p4_img,
     new_price: 31.17,
     old_price: 102.33,
@@ -67,6 +71,7 @@ let all_products = [
   {
     id: 5,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p5_img,
     new_price: 51.22,
     old_price: 64.33,
@@ -74,6 +79,7 @@ let all_products = [
   {
     id: 6,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p6_img,
     new_price: 92.1,
     old_price: 120.72,
@@ -81,6 +87,7 @@ let all_products = [
   {
     id: 7,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p7_img,
     new_price: 86.53,
     old_price: 85.57,
@@ -88,6 +95,7 @@ let all_products = [
   {
     id: 8,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p8_img,
     new_price: 32.32,
     old_price: 128.92,
@@ -95,6 +103,7 @@ let all_products = [
   {
     id: 9,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p9_img,
     new_price: 78.11,
     old_price: 132.93,
@@ -102,6 +111,7 @@ let all_products = [
   {
     id: 10,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p10_img,
     new_price: 78.67,
     old_price: 50.49,
@@ -109,6 +119,7 @@ let all_products = [
   {
     id: 11,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p11_img,
     new_price: 36.12,
     old_price: 108.9,
@@ -116,6 +127,7 @@ let all_products = [
   {
     id: 12,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "tablet",
     image: p12_img,
     new_price: 92.35,
     old_price: 60.69,
@@ -123,6 +135,7 @@ let all_products = [
   {
     id: 13,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p13_img,
     new_price: 59.05,
     old_price: 71.52,
@@ -130,6 +143,7 @@ let all_products = [
   {
     id: 14,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p14_img,
     new_price: 70.73,
     old_price: 57.13,
@@ -137,6 +151,7 @@ let all_products = [
   {
     id: 15,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p15_img,
     new_price: 23.18,
     old_price: 100.63,
@@ -144,6 +159,7 @@ let all_products = [
   {
     id: 16,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p16_img,
     new_price: 79.23,
     old_price: 141.11,
@@ -151,6 +167,7 @@ let all_products = [
   {
     id: 17,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p17_img,
     new_price: 74.62,
     old_price: 137.65,
@@ -158,6 +175,7 @@ let all_products = [
   {
     id: 18,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p18_img,
     new_price: 56.09,
     old_price: 135.64,
@@ -165,6 +183,7 @@ let all_products = [
   {
     id: 19,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p19_img,
     new_price: 30.13,
     old_price: 63.52,
@@ -172,6 +191,7 @@ let all_products = [
   {
     id: 20,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p20_img,
     new_price: 49.16,
     old_price: 133.16,
@@ -179,6 +199,7 @@ let all_products = [
   {
     id: 21,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p21_img,
     new_price: 41.48,
     old_price: 103.89,
@@ -186,6 +207,7 @@ let all_products = [
   {
     id: 22,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p22_img,
     new_price: 58.53,
     old_price: 79.34,
@@ -193,6 +215,7 @@ let all_products = [
   {
     id: 23,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p23_img,
     new_price: 28.52,
     old_price: 131.62,
@@ -200,6 +223,7 @@ let all_products = [
   {
     id: 24,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "phone",
     image: p24_img,
     new_price: 50.26,
     old_price: 64.51,
@@ -207,6 +231,7 @@ let all_products = [
   {
     id: 25,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p25_img,
     new_price: 63.37,
     old_price: 145.89,
@@ -214,6 +239,7 @@ let all_products = [
   {
     id: 26,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p26_img,
     new_price: 23.74,
     old_price: 106.93,
@@ -221,6 +247,7 @@ let all_products = [
   {
     id: 27,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p27_img,
     new_price: 71.8,
     old_price: 135.25,
@@ -228,6 +255,7 @@ let all_products = [
   {
     id: 28,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p28_img,
     new_price: 24.12,
     old_price: 143.53,
@@ -235,6 +263,7 @@ let all_products = [
   {
     id: 29,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p29_img,
     new_price: 23.26,
     old_price: 61.19,
@@ -242,6 +271,7 @@ let all_products = [
   {
     id: 30,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p30_img,
     new_price: 80.81,
     old_price: 122.84,
@@ -249,6 +279,7 @@ let all_products = [
   {
     id: 31,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p31_img,
     new_price: 47.9,
     old_price: 132.75,
@@ -256,6 +287,7 @@ let all_products = [
   {
     id: 32,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p32_img,
     new_price: 27.63,
     old_price: 83.16,
@@ -263,6 +295,7 @@ let all_products = [
   {
     id: 33,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p33_img,
     new_price: 27.08,
     old_price: 119.78,
@@ -270,6 +303,7 @@ let all_products = [
   {
     id: 34,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p34_img,
     new_price: 87.56,
     old_price: 67.65,
@@ -277,6 +311,7 @@ let all_products = [
   {
     id: 35,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p35_img,
     new_price: 89.99,
     old_price: 97.42,
@@ -284,6 +319,7 @@ let all_products = [
   {
     id: 36,
     name: "Stickers For Phone Tablet and Laptop",
+    category: "laptop",
     image: p36_img,
     new_price: 82.67,
     old_price: 96.37,
