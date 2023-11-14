@@ -8,13 +8,13 @@ const ShopCategory = (props) => {
 
   return (
     <div className="">
-      <img className="block my-[30px] mx-[auto] w-[90%] " src={props.banner} alt="" />
-      <div className="flex my-[0px] mx-[170px] justify-between items-center">
+      <img className="block my-[30px] mx-[auto] w-[90%] h-[50vh] " src={props.banner} alt="" />
+      <div className="flex my-[0px] mx-[80px] justify-between items-center">
         <p>
           <span className="font-semibold">Showing 1-12</span> out of 36 products
         </p>
-        <div className="py-[10px] px-[20px] rounded-[40px] border-solid border-2 border-zinc-200">
-          Sort by <img src={dropdown_icon} alt="" />
+        <div className="py-[5px] flex items-center gap-[5px] px-[20px] rounded-[40px] border-solid border-2 border-zinc-200">
+          Sort by <img className="h-[10px] w-[10px] " src={dropdown_icon} alt="" />
         </div>
       </div>
       <div className="my-[20px] mx-[80px] grid grid-cols-4 gap-[20px]">
@@ -34,6 +34,9 @@ const ShopCategory = (props) => {
             return null;
           }
         })}
+      </div>
+      <div className="flex justify-center items-center my-[80px] mx-[auto] w-[200px] h-[49px] rounded-[55px] bg-zinc-200 text-gray-500 text-[18px] font-medium">
+        Explore More
       </div>
     </div>
   );
