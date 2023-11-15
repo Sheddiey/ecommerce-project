@@ -5,21 +5,21 @@ import star_dull_icon from "../Assets/star_dull_icon.png";
 const ProductDisplay = (props) => {
   const { product } = props;
   return (
-    <div className=" ">
-      <div className="">
-        <div classname>
-          <img className="h-[300px] w-[250px]" src={product.image} alt="" />
-          <img className="h-[300px] w-[250px]" src={product.image} alt="" />
-          <img className="h-[300px] w-[250px]" src={product.image} alt="" />
-          <img className="h-[300px] w-[250px]" src={product.image} alt="" />
+    <div className="flex my-[0px] mx-[170px]">
+      <div className="flex gap-[17px] ">
+        <div className="flex flex-col gap-[16px]">
+          <img className="h-[83px] w-[250px]" src={product.image} alt="" />
+          <img className="h-[83px] w-[250px]" src={product.image} alt="" />
+          <img className="h-[83px] w-[250px]" src={product.image} alt="" />
+          <img className="h-[83px] w-[250px]" src={product.image} alt="" />
         </div>
         <div className="">
-          <img className="h-[300px] w-[250px]" src={product.image} alt="" />
+          <img className="h-[380px] w-[950px]" src={product.image} alt="" />
         </div>
       </div>
       <div className="">
         <h1>{product.name}</h1>
-        <div>
+        <div className="">
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
