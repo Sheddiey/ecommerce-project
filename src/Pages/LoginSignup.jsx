@@ -2,8 +2,8 @@ import React from "react";
 
 const LoginSignup = () => {
   return (
-    <div className="w-[100%] h-[85vh] bg-purple-100 flex">
-      <div className="w-[550px] h-[420px] bg-white m-[auto] py-[20px] px-[40px]">
+    <div className="w-[100%] h-[90vh] bg-purple-100 flex">
+      <div className="shadow w-[550px] h-[420px] bg-white m-[auto] py-[20px] px-[40px]">
         <h1 className="font-bold text-gray-700 text-2xl">Sign Up</h1>
         <form className="flex flex-col gap-[20px] mt-[20px]">
           <input
@@ -24,7 +24,7 @@ const LoginSignup = () => {
         </form>
         <button className="w-[100%] h-[45px] text-white border-none text-[24px] bg-red-500 font-medium cursor-pointer mt-[20px]">Continue</button>
         <p className="mt-[20px] text-[18px] text-gray-800 font-medium">
-          Already have an account? <span className="text-red-500 font-semibold">Login here</span>
+          Already have an account? <span className="text-red-500 cursor-pointer font-semibold">Login here</span>
         </p>
         <div className="flex items-center mt-[20px] gap-[20px] text-gray-800 text-[16px] font-medium">
           <input type="checkbox" name="" id="" />
