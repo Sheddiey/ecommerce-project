@@ -5,7 +5,7 @@ const Item = (props) => {
   return (
     <div className="transform hover:scale-105 transition-transform duration-600">
       <Link to={`/product/${props.id}`}>
-        <img className="h-[300px] w-[250px]" src={props.image} alt="" />
+        <img onClick={window.scrollTo(0,0)} className="h-[300px] w-[250px]" src={props.image} alt="" />
       </Link>
       <p className="my-[6px]">{props.name}</p>
       <div className="flex gap-[20px]">

@@ -6,7 +6,7 @@ const RelatedProducts = () => {
   return (
     <div className="flex flex-col items-center gap-[10px] h-[90vh]">
       <h1 className="text-[50px] font-semibold text-[#171717]">Related Products</h1>
-      <hr className="w-[300px] h-[8px] rounded-[10px] bg-[#171717]" />
+      <hr className="w-[300px] h-[5px] rounded-[10px] bg-gray-300" />
       <div className="mt-[50px] flex gap-[30px]">
         {data_products.map((item, i) => {
           return (

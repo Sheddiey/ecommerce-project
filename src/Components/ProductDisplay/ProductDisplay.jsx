@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
+import { ShopContext } from "../../Context/ShopContext";
 
 const ProductDisplay = (props) => {
   const { product } = props;
+    const { addToCart } = useContext(ShopContext)
+
   return (
     <div className="flex my-[0px] mx-[120px]">
       <div className="flex gap-[17px] ">
@@ -39,7 +42,7 @@ const ProductDisplay = (props) => {
           interests, or brand your devices in a unique way, making them stand
           out in a crowd.
         </div>
-        <button className="uppercase py-[12px] px-[0px] w-[30%] text-[16px] text-white bg-red-500 mt-[20px] cursor-pointer">Add to cart</button>
+        <button onClick={() => addToCart(product.id)} className="uppercase py-[12px] px-[0px] w-[30%] text-[16px] text-white bg-red-500 mt-[20px] cursor-pointer">Add to cart</button>
       </div>
     </div>
   );
