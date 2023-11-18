@@ -31,7 +31,7 @@ const ProductDisplay = (props) => {
           <img src={star_dull_icon} alt="" />
           <p>(122)</p>
         </div>
-        <div className="flex my-[40px] gap-[30px] text-[24px] font-bold">
+        <div className="flex my-[20px] gap-[30px] text-[24px] font-bold">
           <div className="text-gray-500 line-through ">${product.old_price}</div>
           <div className="text-red-500">${product.new_price}</div>
         </div>
