@@ -2,19 +2,21 @@ import React, { useContext } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png";
 import Item from "../Components/Items/Item";
+import Banner from "../Components/Banner/Banner";
 
 const ShopCategory = (props) => {
   const { all_products } = useContext(ShopContext);
 
   return (
     <div className="">
-      <img className="block my-[30px] mx-[auto] w-[90%] h-[50vh] " src={props.banner} alt="" />
+      <Banner />
       <div className="flex my-[0px] mx-[80px] justify-between items-center">
         <p>
           <span className="font-semibold">Showing 1-12</span> out of 36 products
         </p>
         <div className="py-[5px] flex items-center gap-[5px] px-[20px] rounded-[40px] border-solid border-2 border-zinc-200">
-          Sort by <img className="h-[10px] w-[10px] " src={dropdown_icon} alt="" />
+          Sort by{" "}
+          <img className="h-[10px] w-[10px] " src={dropdown_icon} alt="" />
         </div>
       </div>
       <div className="my-[20px] mx-[80px] grid grid-cols-4 gap-[20px]">

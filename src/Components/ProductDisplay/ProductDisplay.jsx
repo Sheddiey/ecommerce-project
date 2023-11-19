@@ -17,7 +17,7 @@ const ProductDisplay = (props) => {
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
         </div>
         <div className="">
-          <img className="h-[380px] w-[950px]" src={product.image} alt="" />
+          <img className="h-[380px] w-[1000px]" src={product.image} alt="" />
         </div>
       </div>
       <div className="mx-[30px] flex flex-col">

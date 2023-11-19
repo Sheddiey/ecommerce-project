@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import logo from "../Assets/logo.jpeg";
+import logo from "../Assets/Untitled.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <div className="flex shadow justify-around">
-      <div className="flex items-center gap-3">
-        <img className="h-14" src={logo} alt="logo" />
+      <div className="flex items-center">
+        <img className="w-[60px] h-[60px]" src={logo} alt="logo" />
         <p className="text-slate-950 text-2xl uppercase font-semibold">
           Oningoi
         </p>

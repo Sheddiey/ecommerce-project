@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body, html {
-    font-family: '', sans-serif;
+    font-family: 'poppins', sans-serif;
   }
   
   
@@ -19,6 +19,10 @@ body, html {
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   }
 
+  .bg-radial {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea99 90%);
+  }
+
   .hero p {
     color: #171717;
     font-size: 50px;
@@ -31,7 +35,7 @@ body, html {
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
     gap: 75px;
-    padding: 20px 0px;
+    padding: 10px 0px;
     color: #454545;
     font-size: 18px;
   }
