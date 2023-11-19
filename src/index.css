@@ -6,7 +6,6 @@ body, html {
     font-family: 'poppins', sans-serif;
   }
   
-  
   .nav-menu hr {
     border: none;
     width: 80%;
@@ -15,6 +14,7 @@ body, html {
     background: #ff4141;
   }
 
+  
   .bg-linear{
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   }
