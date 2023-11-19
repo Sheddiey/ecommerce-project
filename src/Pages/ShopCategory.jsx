@@ -19,7 +19,7 @@ const ShopCategory = (props) => {
           <img className="h-[10px] w-[10px] " src={dropdown_icon} alt="" />
         </div>
       </div>
-      <div className="my-[20px] text-center md:mx-[80px] grid md:grid-cols-4 gap-[20px]">
+      <div className="my-[20px] text-center md:text-left md:mx-[80px] grid md:grid-cols-4 gap-[20px]">
         {all_products.map((item, i) => {
           if (props.category === item.category) {
             return (

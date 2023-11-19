@@ -3,7 +3,7 @@ import React from "react";
 const LoginSignup = () => {
   return (
     <div className="w-[100%] h-[90vh] bg-purple-100 flex">
-      <div className="shadow w-[550px] h-[420px] bg-white m-[auto] py-[20px] px-[40px]">
+      <div className="shadow md:w-[550px] w-[90%] md:h-[420px] bg-white m-[auto] py-[20px] px-[40px]">
         <h1 className="font-bold text-gray-700 text-2xl">Sign Up</h1>
         <form className="flex flex-col gap-[20px] mt-[20px]">
           <input
