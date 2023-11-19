@@ -8,9 +8,9 @@ const ProductDisplay = (props) => {
     const { addToCart } = useContext(ShopContext)
 
   return (
-    <div className="md:flex grid my-[0px] gap-[30px] w-[85%] mx-[auto] md:mx-[120px]">
+    <div className="md:flex grid my-[0px] md:gap-[0px] gap-[30px] w-[85%] mx-[auto] md:mx-[120px]">
       <div className="md:flex grid gap-[10px] md:gap-[17px] ">
-        <div className="grid grid-cols-4 order-[9999] gap-[10px] md:gap-[16px]">
+        <div className="grid md:grid-rows-4 hidden md:block  grid-cols-4order-[9999] gap-[10px] md:gap-[16px]">
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
@@ -35,7 +35,7 @@ const ProductDisplay = (props) => {
           <div className="text-gray-500 line-through ">${product.old_price}</div>
           <div className="text-red-500">${product.new_price}</div>
         </div>
-        <div className="text-gray-600 text-[12px] md:text-xl">
+        <div className="text-gray-600 text-[12px] md:text-[19px]">
           Personalize your devices with vibrant and expressive stickers designed
           to add flair and individuality to your tech gadgets. Easy to apply and
           remove, these adhesive decals allow you to showcase your style,

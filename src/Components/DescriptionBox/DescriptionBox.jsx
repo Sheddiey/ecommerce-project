@@ -2,7 +2,7 @@ import React from "react";
 
 const DescriptionBox = () => {
   return (
-    <div className="my-[20px] mx-[120px]">
+    <div className="my-[20px] w-[85%] mx-[auto] md:mx-[120px]">
       <div className="flex ">
         <div className="flex items-center justify-center text-[16px] font-semibold w-[171px] h-[50px] border-2 border-solid border-gray-300">
           Description
@@ -11,7 +11,7 @@ const DescriptionBox = () => {
           Reviews (122)
         </div>
       </div>
-      <div className="flex flex-col gap-[25px] p-[48px] pb-[70px] border-2 border-solid ">
+      <div className="flex flex-col gap-[25px] p-[20px] md:p-[48px] pb-[70px] border-2 border-solid ">
         <p>
           I absolutely love the stickers I ordered for my laptop! The colors are
           vibrant, and the adhesive quality is fantastic. They stick well
