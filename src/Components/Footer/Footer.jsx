@@ -11,7 +11,7 @@ const Footer = () => {
         <img className="w-[80px] h-[80px]" src={footer_logo} alt="" />
         <p className="uppercase text-gray-800 text-[30px] font-bold">Oningoi</p>
       </div>
-      <ul className="flex list-none gap-[30px] text-gray-800 text-[18px]">
+      <ul className="md:flex grid gap-[30px] text-center text-gray-800 text-[18px]">
         <li className="cursor-pointer">Company</li>
         <li className="cursor-pointer">Product</li>
         <li className="cursor-pointer">Offices</li>
@@ -29,7 +29,7 @@ const Footer = () => {
           <img className=" h-[25px]" src={whatsapp_icon} alt=" " />
         </div>
       </div>
-      <div className="flex flex-col items-center gap-[30px] w-[100%] mb-[20px] text-[18px] text-gray-700">
+      <div className="flex flex-col items-center gap-[30px] w-[100%] mb-[20px] text-[13px] md:text-[18px] text-gray-700">
         <hr className="w-[80%] border-none rounded-[10px] h-[3px] bg-zinc-300" />
         <p>Copyright @ 2023 - All Right Reserved </p>
       </div>
