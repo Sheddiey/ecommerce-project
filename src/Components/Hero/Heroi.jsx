@@ -6,7 +6,7 @@ import p_22 from "../Assets/p-22.jpg";
 const Heroi = () => {
   return (
     <div className="h-screen md:flex grid bg-linear hero">
-      <div className="flex flex-1 flex-col justify-center m-[auto] g-5 md:pl-[180px] leading-110">
+      <div className="flex p-[20px] flex-1 flex-col justify-center m-[auto] g-5 md:pl-[180px] leading-110">
         <h2 className="text-gray-900 font-semibold text-2xl">
           NEW ARRIVALS ONLY
         </h2>

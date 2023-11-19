@@ -4,10 +4,10 @@ import Item from "../Items/Item";
 
 const Popular = () => {
   return (
-    <div className="flex flex-col items-center h-[90vh] gap-[10px]">
-      <h1 className="uppercase text-[50px] text-gray-900 font-semibold">Popular in phones</h1>
+    <div className="flex mt-[200px] md:mt-[20px] flex-col items-center  gap-[10px]">
+      <h1 className="uppercase text-[24px] md:text-[50px] text-gray-900 font-semibold">Popular in phones</h1>
       <hr className="w-[200px] h-[6px] bg-gray-500 rounded-[10px]" />
-      <div className="flex gap-[30px] mt-[50px]">
+      <div className="md:flex grid gap-[30px] mt-[50px]">
         {data_product.map((item, i) => {
           return (
             <Item
