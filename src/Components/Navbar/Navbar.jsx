@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import logo from "../Assets/logo.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
+  const { getTotalCartItems } = useContext(ShopContext);
 
   return (
     <div className="flex shadow justify-around">
@@ -63,7 +65,7 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faCartShopping} />
         </Link>
         <div className="w-[20px] h-[20px] flex justify-center bg-red-500 text-white rounded-xl text-sm mt-[-15px] ml-[-20px]">
-          0
+          {getTotalCartItems()}
         </div>
       </div>
     </div>
