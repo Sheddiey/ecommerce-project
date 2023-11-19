@@ -9,10 +9,10 @@ const Item = (props) => {
       </Link>
       <p className="my-[6px] capitalize">{props.name}</p>
       <div className="flex gap-[20px]">
-        <div className="text-[18px] text-gray-800 font-semibold">
+        <div className="text-[18px] m-[auto] text-gray-800 font-semibold">
           ${props.new_price}
         </div>
-        <div className="tex-gray-500 font-medium line-through">
+        <div className="tex-gray-500 m-[auto] font-medium line-through">
           ${props.old_price}
         </div>
       </div>
