@@ -27,8 +27,8 @@ const Navbar = () => {
           Oningoi
         </p>
       </div>
-      <ul className={`absolute ${isToggle ? 'hidden md:block' : ''} shadow-2xl md:relative md:h-[0px] md:w-[0px] md:bg-[transparent]   bg-white h-[300px] w-[250px]  top-[0px] left-[0px]`}>
-        <div className="md:flex md:block top-[60px] md:top-[0px] grid md:left-[0px] left-[50px] absolute md:relative nav-menu items-center gap-5 text-neutral-600 font-medium text-xl">
+      <ul className={`absolute ${isToggle ? 'hidden md:block' : ''} md:mr-[50px] shadow-2xl md:relative md:h-[0px] md:w-[0px] md:bg-[transparent]   bg-white h-[300px] w-[250px]  top-[0px] left-[0px]`}>
+        <div className="md:flex md:mt-[10px] font-semibold md:block top-[60px] md:top-[0px] grid md:left-[0px] left-[50px] absolute md:relative nav-menu items-center gap-5 text-neutral-600 font-medium text-xl">
           <li
             onClick={() => {
               setMenu("shop");

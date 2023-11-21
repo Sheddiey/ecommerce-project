@@ -10,11 +10,11 @@ const ShopCategory = (props) => {
   return (
     <div className="">
       <Banner />
-      <div className="flex my-[0px] mx-[80px] justify-between items-center">
+      <div className="flex my-[0px] w-[85%] m-[auto] md:mx-[80px] justify-between items-center">
         <p>
           <span className="font-semibold">Showing 1-12</span> out of 36 products
         </p>
-        <div className="py-[5px] flex items-center gap-[5px] px-[20px] rounded-[40px] border-solid border-2 border-zinc-200">
+        <div className="py-[5px] md:text-[16px] flex items-center gap-[5px] md:px-[20px] px-[5px] rounded-[40px] border-solid border-2 border-zinc-200">
           Sort by{" "}
           <img className="h-[10px] w-[10px] " src={dropdown_icon} alt="" />
         </div>
