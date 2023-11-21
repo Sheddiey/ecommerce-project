@@ -6,8 +6,8 @@ const CartItems = () => {
   const { getTotalCartAmount, all_products, cartItems, removeFromCart } = useContext(ShopContext);
 
   return (
-    <div className="my-[30px] mx-[70px]">
-      <div className="grid_cols font-semibold">
+    <div className="md:my-[30px] grid_colsp md:grid  w-[85%] m-[auto] md:flex md:mx-[70px]">
+      <div className="grid_cols hidden font-semibold">
         <p>Product</p>
         <p>Title</p>
         <p>Price</p>
@@ -15,14 +15,14 @@ const CartItems = () => {
         <p>Total</p>
         <p>Remove</p>
       </div>
-      <hr className="h-[3px] bg-[#e2e2e2] border-none" />
+      <hr className="h-[3px] bg-[#e2e2e2] hidden border-none" />
       {all_products.map((e) => {
         if (cartItems[e.id] > 0) {
           return (
             <div key={e.id}>
-              <div className="grid_cols font-medium text-[16px]">
+              <div className="grid_cols grid font-medium text-[16px]">
                 <img className="h-[50px] w-[50px]" src={e.image} alt="" />
-                <p>{e.name}</p>
+                <p className="order-first">{e.name}</p>
                 <p>${e.new_price}</p>
                 <button className="w-[38px] h-[38px] border-2 border-solid border-[#ebebeb] bg-white">
                   {cartItems[e.id]}
@@ -44,7 +44,7 @@ const CartItems = () => {
           return null;
         }
       })}
-      <div className="flex my-[30px]">
+      <div className="md:flex my-[30px]">
         <div className="flex flex-1 flex-col mr-[100px] gap-[20px]">
           <h1 className="font-bold text-2xl">Cart Totals</h1>
           <div>
@@ -67,8 +67,8 @@ const CartItems = () => {
         </div>
         <div className="flex flex-col flex-1 font-medium text-[16px]">
           <p className="text-[#555]">If you have a promo code, Enter it here</p>
-          <div className="w-[450px] pl-[20px] mt-[15px] h-[48px] bg-[#eaeaea]">
-            <input className="bg-transparent outline-none text-[16px] w-[280px] h-[50px]" type="text" placeholder="promo code" />
+          <div className="md:w-[450px] flex pl-[20px] mt-[15px] h-[48px] bg-[#eaeaea]">
+            <input className="bg-transparent outline-none text-[16px] md:w-[280px] h-[50px]" type="text" placeholder="promo code" />
             <button className="w-[150px] h-[48px] bg-black text-[16px] text-white cursor-pointer">Submit</button>
           </div>
         </div>

@@ -69,7 +69,7 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center gap-4">
         <Link to="/login">
-          <button className={`md:border  ${isToggle ? 'hidden' : ''} md:relative text-neutral-600 top-[250px] left-[30px] absolute left border-solid w-[100px] h-[30px] font-semibold text-xl text-center rounded-full bg-white border-slate-500 active:bg-slate-200`}>
+          <button className={`md:border  ${isToggle ? 'hidden' : ''} md:static text-neutral-600 top-[250px] left-[30px] absolute left border-solid w-[100px] h-[30px] font-semibold text-xl text-center rounded-full bg-white border-slate-500 active:bg-slate-200`}>
             Login
           </button>
         </Link>

@@ -10,7 +10,7 @@ const ProductDisplay = (props) => {
   return (
     <div className="md:flex grid my-[0px] md:gap-[0px] gap-[30px] w-[85%] mx-[auto] md:mx-[120px]">
       <div className="md:flex grid gap-[10px] md:gap-[17px] ">
-        <div className="grid md:grid-rows-4 hidden md:block  grid-cols-4order-[9999] gap-[10px] md:gap-[16px]">
+        <div className="hidden md:flex flex-col justify-between">
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
           <img className="h-[83px] w-[250px]" src={product.image} alt="" />
