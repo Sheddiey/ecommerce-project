@@ -38,7 +38,7 @@ import p36_img from "./p-36.jpg";
 let all_products = [
   {
     id: 1,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p1_img,
     new_price: 30.04,
@@ -46,7 +46,7 @@ let all_products = [
   },
   {
     id: 2,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p2_img,
     new_price: 56.24,
@@ -54,7 +54,7 @@ let all_products = [
   },
   {
     id: 3,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p3_img,
     new_price: 89.02,
@@ -62,7 +62,7 @@ let all_products = [
   },
   {
     id: 4,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p4_img,
     new_price: 31.17,
@@ -70,7 +70,7 @@ let all_products = [
   },
   {
     id: 5,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p5_img,
     new_price: 51.22,
@@ -78,7 +78,7 @@ let all_products = [
   },
   {
     id: 6,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p6_img,
     new_price: 92.1,
@@ -86,7 +86,7 @@ let all_products = [
   },
   {
     id: 7,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p7_img,
     new_price: 86.53,
@@ -94,7 +94,7 @@ let all_products = [
   },
   {
     id: 8,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p8_img,
     new_price: 32.32,
@@ -102,7 +102,7 @@ let all_products = [
   },
   {
     id: 9,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p9_img,
     new_price: 78.11,
@@ -110,7 +110,7 @@ let all_products = [
   },
   {
     id: 10,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p10_img,
     new_price: 78.67,
@@ -118,7 +118,7 @@ let all_products = [
   },
   {
     id: 11,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p11_img,
     new_price: 36.12,
@@ -126,7 +126,7 @@ let all_products = [
   },
   {
     id: 12,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "tablet",
     image: p12_img,
     new_price: 92.35,
@@ -134,7 +134,7 @@ let all_products = [
   },
   {
     id: 13,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p13_img,
     new_price: 59.05,
@@ -142,7 +142,7 @@ let all_products = [
   },
   {
     id: 14,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p28_img,
     new_price: 70.73,
@@ -150,7 +150,7 @@ let all_products = [
   },
   {
     id: 15,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p15_img,
     new_price: 23.18,
@@ -158,7 +158,7 @@ let all_products = [
   },
   {
     id: 16,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p16_img,
     new_price: 79.23,
@@ -166,7 +166,7 @@ let all_products = [
   },
   {
     id: 17,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p17_img,
     new_price: 74.62,
@@ -174,7 +174,7 @@ let all_products = [
   },
   {
     id: 18,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p18_img,
     new_price: 56.09,
@@ -182,7 +182,7 @@ let all_products = [
   },
   {
     id: 19,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p19_img,
     new_price: 30.13,
@@ -190,7 +190,7 @@ let all_products = [
   },
   {
     id: 20,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p20_img,
     new_price: 49.16,
@@ -198,7 +198,7 @@ let all_products = [
   },
   {
     id: 21,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p21_img,
     new_price: 41.48,
@@ -206,7 +206,7 @@ let all_products = [
   },
   {
     id: 22,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p22_img,
     new_price: 58.53,
@@ -214,7 +214,7 @@ let all_products = [
   },
   {
     id: 23,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p23_img,
     new_price: 28.52,
@@ -222,7 +222,7 @@ let all_products = [
   },
   {
     id: 24,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "phone",
     image: p24_img,
     new_price: 50.26,
@@ -230,7 +230,7 @@ let all_products = [
   },
   {
     id: 25,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p25_img,
     new_price: 63.37,
@@ -238,7 +238,7 @@ let all_products = [
   },
   {
     id: 26,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p26_img,
     new_price: 23.74,
@@ -246,7 +246,7 @@ let all_products = [
   },
   {
     id: 27,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p27_img,
     new_price: 71.8,
@@ -254,7 +254,7 @@ let all_products = [
   },
   {
     id: 28,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p14_img,
     new_price: 24.12,
@@ -262,7 +262,7 @@ let all_products = [
   },
   {
     id: 29,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p29_img,
     new_price: 23.26,
@@ -270,7 +270,7 @@ let all_products = [
   },
   {
     id: 30,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p30_img,
     new_price: 80.81,
@@ -278,7 +278,7 @@ let all_products = [
   },
   {
     id: 31,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p31_img,
     new_price: 47.9,
@@ -286,7 +286,7 @@ let all_products = [
   },
   {
     id: 32,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p32_img,
     new_price: 27.63,
@@ -294,7 +294,7 @@ let all_products = [
   },
   {
     id: 33,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p33_img,
     new_price: 27.08,
@@ -302,7 +302,7 @@ let all_products = [
   },
   {
     id: 34,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p34_img,
     new_price: 87.56,
@@ -310,7 +310,7 @@ let all_products = [
   },
   {
     id: 35,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p35_img,
     new_price: 89.99,
@@ -318,7 +318,7 @@ let all_products = [
   },
   {
     id: 36,
-    name: "Stickers For Phone Tablet and Laptop",
+    name: "Oningoi Tech Decals",
     category: "laptop",
     image: p36_img,
     new_price: 82.67,

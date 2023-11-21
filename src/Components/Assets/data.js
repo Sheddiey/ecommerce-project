@@ -6,28 +6,28 @@ import p4_img from './p-4.jpg'
 let data_product = [
     {
         id: 1,
-        name: 'phone laptop and tablet stickers',
+        name: 'Oningoi Tech Decals',
         image: p1_img,
         new_price: 100.00,
         old_price: 150.00
     },
     {
         id: 2,
-        name: 'phone laptop and tablet stickers',
+        name: 'Oningoi Tech Decals',
         image: p2_img,
         new_price: 100.00,
         old_price: 150.00
     },
     {
         id: 3,
-        name: 'phone laptop and tablet stickers',
+        name: 'Oningoi Tech Decals',
         image: p3_img,
         new_price: 100.00,
         old_price: 150.00
     },
     {
         id: 4,
-        name: 'phone laptop and tablet stickers',
+        name: 'Oningoi Tech Decals',
         image: p4_img,
         new_price: 100.00,
         old_price: 150.00
