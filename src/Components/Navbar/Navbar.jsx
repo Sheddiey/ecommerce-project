@@ -27,11 +27,12 @@ const Navbar = () => {
           Oningoi
         </p>
       </div>
-      <ul className={`absolute ${isToggle ? 'hidden' : ''} shadow-2xl md:relative md:h-[0px] md:w-[0px] md:bg-[transparent]   bg-white h-[300px] w-[250px]  top-[0px] left-[0px]`}>
+      <ul className={`absolute ${isToggle ? 'hidden md:block' : ''} shadow-2xl md:relative md:h-[0px] md:w-[0px] md:bg-[transparent]   bg-white h-[300px] w-[250px]  top-[0px] left-[0px]`}>
         <div className="md:flex md:block top-[60px] md:top-[0px] grid md:left-[0px] left-[50px] absolute md:relative nav-menu items-center gap-5 text-neutral-600 font-medium text-xl">
           <li
             onClick={() => {
               setMenu("shop");
+              handleClick();
             }}
             className="flex flex-col md:items-center content-center gap-2 cursor-pointer"
           >
@@ -41,6 +42,7 @@ const Navbar = () => {
           <li
             onClick={() => {
               setMenu("phone");
+              handleClick();
             }}
             className="flex flex-col md:items-center content-center gap-2 cursor-pointer"
           >
@@ -50,6 +52,7 @@ const Navbar = () => {
           <li
             onClick={() => {
               setMenu("laptop");
+              handleClick();
             }}
             className="flex flex-col md:items-center content-center gap-2 cursor-pointer"
           >
@@ -59,6 +62,7 @@ const Navbar = () => {
           <li
             onClick={() => {
               setMenu("tablet");
+              handleClick();
             }}
             className="flex flex-col md:items-center content-center gap-2 cursor-pointer"
           >
@@ -69,7 +73,7 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center gap-4">
         <Link to="/login">
-          <button className={`md:border  ${isToggle ? 'hidden' : ''} md:static text-neutral-600 top-[250px] left-[30px] absolute left border-solid w-[100px] h-[30px] font-semibold text-xl text-center rounded-full bg-white border-slate-500 active:bg-slate-200`}>
+          <button onClick={handleClick} className={`md:border  ${isToggle ? 'hidden md:block' : ''} md:static text-neutral-600 top-[250px] left-[30px] absolute left border-solid w-[100px] h-[30px] font-semibold text-xl text-center rounded-full bg-white border-slate-500 active:bg-slate-200`}>
             Login
           </button>
         </Link>
