@@ -28,8 +28,8 @@ body, html {
     font-size: 50px;
     font-weight: 700;
   }
-
-  /* .grid_cols {
+@media (min-width: 768px) {
+  .grid_cols {
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -37,16 +37,22 @@ body, html {
     padding: 10px 0px;
     color: #454545;
     font-size: 18px;
-  } */
+  } 
+}
+@media (max-width: 768px) {
+  .grid_cols-titles {
+    display: none;
+  }
+}
  
 
-    .grid_colsp {
+    /* .grid_colsp {
       display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
       justify-content: center;
       align-items: center;
       justify-items: center;
-    }
+    } */
 
   

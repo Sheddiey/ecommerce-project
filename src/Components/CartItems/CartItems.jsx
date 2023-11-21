@@ -7,8 +7,8 @@ const CartItems = () => {
     useContext(ShopContext);
 
   return (
-    <div className="md:my-[30px] grid_colsp md:grid  w-[85%] m-[auto] md:flex md:mx-[70px]">
-      <div className="grid_cols hidden font-semibold">
+    <div className="md:my-[30px] md:grid  w-[85%] m-[auto] md:flex md:mx-[70px]">
+      <div className="grid_cols grid_cols-titles w-[85vw] font-semibold">
         <p>Product</p>
         <p>Title</p>
         <p>Price</p>
@@ -22,32 +22,32 @@ const CartItems = () => {
           return (
             <div key={e.id}>
               <div className="grid_cols grid w-[85vw] font-medium text-[16px]">
-                <div className="grid grid-cols-2 p-[10px] ">
-                  <p className="font-semibold text-[18px]">Product</p>
+                <div className="grid grid-cols-2  md:p-[0px] p-[10px] ">
+                  <p className="font-semibold md:hidden text-[18px]">Product</p>
                   <img className="h-[50px] w-[50px] " src={e.image} alt="" />
                 </div>
-                <div className="grid grid-cols-2 p-[10px]">
-                  <p className="font-semibold text-[18px]">Title</p>
+                <div className="grid grid-cols-2 md:p-[0px] p-[10px]">
+                  <p className="font-semibold md:hidden text-[18px]">Title</p>
                   <p className="">{e.name}</p>
                 </div>
-                <div className="grid grid-cols-2 p-[10px]">
-                  <p className="font-semibold text-[18px]">Price</p>
+                <div className="grid grid-cols-2 md:p-[0px] p-[10px]">
+                  <p className="font-semibold md:hidden text-[18px]">Price</p>
                   <p className="">${e.new_price}</p>
                 </div>
-                <div className="grid grid-cols-2 p-[10px]">
-                  <p className="font-semibold text-[18px]">Quantity</p>
+                <div className="grid grid-cols-2 md:p-[0px] p-[10px]">
+                  <p className="font-semibold md:hidden text-[18px]">Quantity</p>
                   <button className="w-[38px] h-[38px] border-2 border-solid border-[#ebebeb] bg-white">
                     {cartItems[e.id]}
                   </button>
                 </div>
-                <div className="grid grid-cols-2 p-[10px]">
-                  <p className="font-semibold text-[18px]">Total</p>
+                <div className="grid grid-cols-2 md:p-[0px] p-[10px]">
+                  <p className="font-semibold md:hidden text-[18px]">Total</p>
                   <p className="">${e.new_price * cartItems[e.id]}</p>
                 </div>
-                <div className="grid grid-cols-2 p-[10px]">
-                  <p className="font-semibold text-[18px]">Remove</p>
+                <div className="grid grid-cols-2 md:p-[0px] p-[10px]">
+                  <p className="font-semibold md:hidden text-[18px]">Remove</p>
                   <img
-                    className="w-[15px] my-[0px] mx-[40px] cursor-pointer"
+                    className="w-[15px] my-[0px] md:mx-[40px] cursor-pointer"
                     src={remove_icon}
                     onClick={() => {
                       removeFromCart(e.id);
