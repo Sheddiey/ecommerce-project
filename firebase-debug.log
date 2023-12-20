@@ -1,0 +1,25 @@
+[debug] [2023-12-20T19:34:32.921Z] ----------------------------------------------------------------------
+[debug] [2023-12-20T19:34:32.937Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shadr\.npm-global\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-20T19:34:32.939Z] CLI Version:   13.0.2
+[debug] [2023-12-20T19:34:32.943Z] Platform:      win32
+[debug] [2023-12-20T19:34:32.946Z] Node Version:  v20.2.0
+[debug] [2023-12-20T19:34:32.947Z] Time:          Wed Dec 20 2023 22:34:32 GMT+0300 (East Africa Time)
+[debug] [2023-12-20T19:34:32.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-20T19:34:33.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-20T19:34:33.335Z] > authorizing via signed-in user (cheruiyotterrific@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Projects\Oningoi-Ecommerce\oningoi-ecommerce
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
